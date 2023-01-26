@@ -1,0 +1,49 @@
+body{
+    background-color: #3498db;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+#heading2{
+    margin-top: -20px;
+}
+#input{
+    display: flex;
+align-items: center;
+justify-content: center;
+background-color: #fff;
+width: 29%;
+margin-left: 437px;
+font-size: 25px;
+margin-top: 12px;
+margin-bottom: 16px;
+font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+#insert{
+    font-size: 37px;
+    margin-left: 46%;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+#box{
+    height: 400px;
+    width: 79%;
+    background-color: #fff;
+    margin-left: 126px;
+    border-radius: 5px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    box-shadow: 2px grey;
+}

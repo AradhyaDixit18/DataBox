@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Databox</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="index.css" />
+
+    <div class="heading" id="heading1">
+      <h3>-->Click on Insert to write something-->></h3>
+    </div>
+
+    <div class="heading" id="heading2">
+      <h3>
+        --> Click Delete to delete the last data which was inserted in the Box
+        <--
+      </h3>
+    </div>
+
+    <form class="input1">
+      <div>
+        <input
+          type="text"
+          name="input"
+          id="input"
+          autofocus
+          placeholder="Click here......."
+        />
+        <button id="insert">Insert</button>
+      </div>
+    </form>
+
+    <div class="heading" id="heading3">
+      <h2>--> Inserted Data <--</h2>
+    </div>
+
+    <div class="box" id="box"></div>
+
+    <div class="btn" id="btn">
+      <button id="delete" onclick="del()">Delete</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
