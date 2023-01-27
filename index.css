@@ -47,3 +47,40 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     box-shadow: 2px grey;
 }
+@media screen and (max-width:480px){
+    #heading2{
+        margin-top: -20px;
+        font-size: 10px;
+    }
+    #input{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 49%;
+    margin-left: 130px;
+    font-size: 25px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    }
+
+    #insert {
+        font-size: 16px;
+        margin-left: 44%;
+        font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    }
+    #heading3{
+        font-size: 12px;
+    }
+
+    #box {
+        height: 222px;
+        width: 57%;
+        background-color: #fff;
+        margin-left: 101px;
+        border-radius: 5px;
+        font-family: 'Sofia Sans Semi Condensed', sans-serif;
+        box-shadow: 2px grey;
+    }
+}
